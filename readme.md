@@ -1,6 +1,4 @@
-Here's the Markdown code for the README file:
 
-```markdown
 # psbuilder
 
 `psbuilder` is a CLI tool for scaffolding full-stack MERN applications. It provides a structured setup to help you quickly start building applications with a full stack of technologies.
@@ -16,7 +14,7 @@ Here's the Markdown code for the README file:
 You can install `psbuilder` globally using npm:
 
 ```bash
-npm install -g psbuilder
+npm psbuilder create <project-Name>
 ```
 
 ## Usage
