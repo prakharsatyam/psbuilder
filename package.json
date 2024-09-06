@@ -1,0 +1,26 @@
+{
+  "name": "psbuilder",
+  "version": "1.0.0",
+  "description": "Structure for a full stack project",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "psbuilder": "./index.js"
+  },
+  "author": "Prakhar Satyam",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.2.0"
+  },
+  "keywords": [
+    "full-stack",
+    "MERN",
+    "build-tool",
+    "project-setup",
+    "development",
+    "node",
+    "npm"
+  ]
+}
