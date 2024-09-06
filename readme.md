@@ -14,7 +14,8 @@
 You can install `psbuilder` globally using npm:
 
 ```bash
-npm psbuilder create <project-Name>
+npm i psbuilder 
+psbuilder create <project-Name>
 ```
 
 ## Usage
