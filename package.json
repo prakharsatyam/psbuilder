@@ -1,6 +1,6 @@
 {
   "name": "psbuilder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Structure for a full stack project",
   "main": "index.js",
   "type": "module",
