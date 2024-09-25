@@ -16,6 +16,9 @@ async function getConfig() {
 const connectDB = async () => {
   try {
     const config = await getConfig();
+    if(config.databaseUrl==='mongodb://localhost:27017/'){
+      config.databaseUrl='mongodb://0.0.0.0:27017/'
+    }
     const instance = await mongoose.connect(`${config.databaseUrl}${config.databaseName}`, {
     });
     console.log("Connected to the database:", instance.connection.name);
