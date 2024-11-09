@@ -18,28 +18,6 @@ npm i psbuilder
 psbuilder create <project-Name>
 ```
 
-## Usage
-
-To use the tool, run the following command in your terminal:
-
-```bash
-psbuilder [options]
-```
-
-### Commands
-
-- **Initialize a Project**: 
-  ```bash
-  psbuilder init
-  ```
-
-  This command initializes a new project with the predefined structure and configuration.
-
-### Options
-
-- **`--help`**: Show help information.
-- **`--version`**: Show the current version of `psbuilder`.
-
 ## Project Structure
 
 After initialization, your project will have the following structure:
